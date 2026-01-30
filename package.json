@@ -1,0 +1,14 @@
+{
+  "name": "cloudflare-bradtgmurray.com",
+  "packageManager": "yarn@4.10.3",
+  "scripts": {
+    "dev": "wrangler dev --config workers/bradtgmurray-com/wrangler.toml",
+    "deploy": "wrangler deploy --config workers/bradtgmurray-com/wrangler.toml",
+    "typecheck": "tsc --noEmit --project workers/bradtgmurray-com/tsconfig.json"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260130.0",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.61.1"
+  }
+}

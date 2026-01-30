@@ -1,0 +1,22 @@
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+node_modules/
+.pnp.*
+
+# Wrangler
+.wrangler/
+.dev.vars
+
+# Build output
+dist/
+
+# OS
+.DS_Store
+
+# Secrets
+.envrc

@@ -1,0 +1,8 @@
+name = "bradtgmurray-com"
+main = "src/index.ts"
+compatibility_date = "2026-01-30"
+
+# Route to the root domain
+routes = [
+  { pattern = "bradtgmurray.com", custom_domain = true }
+]
