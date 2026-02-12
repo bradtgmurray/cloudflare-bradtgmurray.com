@@ -4,6 +4,8 @@
   "scripts": {
     "dev": "wrangler dev --config workers/bradtgmurray-com/wrangler.toml",
     "deploy": "wrangler deploy --config workers/bradtgmurray-com/wrangler.toml",
+    "pages:resume:project:create": "wrangler pages project create resume-bradtgmurray-com --production-branch main",
+    "pages:resume:deploy": "wrangler pages deploy pages/resume --project-name resume-bradtgmurray-com --branch main",
     "typecheck": "tsc --noEmit --project workers/bradtgmurray-com/tsconfig.json"
   },
   "devDependencies": {

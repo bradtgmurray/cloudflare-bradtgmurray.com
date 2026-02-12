@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brad Murray – Resume</title>
+  <style>
+    @page {
+      size: letter;
+      margin: 0.5in 0.6in;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 9.5pt;
+      line-height: 1.4;
+      color: #1a1a1a;
+      max-width: 7.5in;
+      margin: 0 auto;
+      padding: 0.5in 0.6in;
+    }
+    @media print {
+      body { padding: 0; }
+    }
+    header {
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 1.5px solid #222;
+    }
+    h1 {
+      font-size: 22pt;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 3px;
+    }
+    .contact {
+      font-size: 9pt;
+      color: #444;
+    }
+    .contact a {
+      color: #444;
+      text-decoration: none;
+    }
+    .contact span { margin: 0 4px; color: #999; }
+
+    h2 {
+      font-size: 9pt;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #555;
+      margin-top: 14px;
+      margin-bottom: 8px;
+    }
+    .job {
+      margin-bottom: 11px;
+    }
+    .job:last-child {
+      margin-bottom: 0;
+    }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 2px;
+    }
+    .company {
+      font-weight: 700;
+      font-size: 10.5pt;
+    }
+    .dates {
+      font-size: 8.5pt;
+      color: #666;
+      white-space: nowrap;
+    }
+    .title {
+      font-style: italic;
+      color: #333;
+      margin-bottom: 3px;
+    }
+    ul {
+      margin: 2px 0 0 16px;
+      padding: 0;
+      color: #2a2a2a;
+    }
+    li {
+      margin-bottom: 1px;
+    }
+    .education .school {
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Brad Murray</h1>
+    <div class="contact">
+      (519) 496-9994<span>·</span>bradtgmurray@gmail.com<span>·</span>Waterloo, ON<span>·</span><a href="https://www.linkedin.com/in/bradtgmurray/">linkedin.com/in/bradtgmurray</a>
+    </div>
+  </header>
+
+  <h2>Experience</h2>
+
+  <div class="job">
+    <div class="job-header">
+      <div class="company">Beeper → Automattic</div>
+      <div class="dates">Mar 2021 – Present</div>
+    </div>
+    <div class="title">Co-founder & CTO</div>
+    <ul>
+      <li>Co-founded universal messaging platform with Eric Migicovsky (Pebble's founder); joined Y Combinator S21.</li>
+      <li>Scaled a failing prototype to 100k+ users, sending millions and receiving tens of millions of messages daily across 12 chat networks.</li>
+      <li>Built native clients from scratch for iOS (Swift), Android (Kotlin), and Desktop (React/Electron); hired and led a fully remote 20-person engineering team.</li>
+      <li>Built Beeper Mini, a standalone Android app enabling real iMessage directly from an Android phone.</li>
+      <li>Acquired by Automattic (April 2024) and combined with the also recently acquired Texts.com team to form a standalone messaging division.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <div class="company">Faire</div>
+      <div class="dates">Jun 2019 – Mar 2021</div>
+    </div>
+    <div class="title">Senior Engineering Manager</div>
+    <ul>
+      <li>Joined at under 100 employees when all of engineering reported directly to the CTO.</li>
+      <li>Became Faire's first engineering manager after an initial IC period; defined how the engineering org would scale.</li>
+      <li>Led teams across retailer growth, first non-US market expansion (Canada), brand referral program, and first online tradeshow (Faire Summer Market).</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <div class="company">Fitbit</div>
+      <div class="dates">Dec 2016 – Sep 2018</div>
+    </div>
+    <div class="title">Director, Embedded Software</div>
+    <ul>
+      <li>Joined via Pebble acquisition; led integration of Pebble engineering team and practices.</li>
+      <li>Led ~25 engineers across San Diego, San Francisco, Boston, Romania, and Kitchener building the third-party app platform for Fitbit smartwatches.</li>
+      <li>Drove the "Fitbit OS" initiative to ship a shared firmware codebase across multiple products simultaneously.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <div class="company">Pebble</div>
+      <div class="dates">May 2012 – Dec 2016</div>
+    </div>
+    <div class="title">Firmware Engineering Manager & GM, Canadian Office</div>
+    <ul>
+      <li>Employee #4 during the original Kickstarter; helped scale to 160+ employees and ship over 1M devices.</li>
+      <li>Wrote the original watch OS (FreeRTOS on a 128KB RAM microcontroller) and built the third-party app sandbox.</li>
+      <li>Grew to lead the ~20-person firmware team; opened and expanded the Kitchener office to 16 people.</li>
+    </ul>
+  </div>
+
+  <h2>Education</h2>
+  <div class="education">
+    <span class="school">University of Waterloo</span> — BASc, Computer Engineering, 2004 – 2009
+  </div>
+
+</body>
+</html>

@@ -1,1 +1,4 @@
 bradtgmurray_zone_id = "your-bradtgmurray-zone-id"
+cloudflare_account_id = "your-cloudflare-account-id"
+resume_pages_project_name = "resume-bradtgmurray-com"
+resume_custom_domain = "resume.bradtgmurray.com"
