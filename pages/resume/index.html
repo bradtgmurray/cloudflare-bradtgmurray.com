@@ -26,6 +26,17 @@
     @media print {
       body { padding: 0; }
     }
+    @media (max-width: 860px) {
+      body {
+        padding: 18px 16px;
+      }
+      .contact .mobile-break {
+        display: block !important;
+      }
+      .contact .location-sep {
+        display: none;
+      }
+    }
     header {
       margin-bottom: 14px;
       padding-bottom: 10px;
@@ -45,7 +56,9 @@
       color: #444;
       text-decoration: none;
     }
-    .contact span { margin: 0 4px; color: #999; }
+    .contact .sep { margin: 0 4px; color: #999; }
+    .contact .mobile-break { display: none; }
+    .contact .location { white-space: nowrap; }
 
     h2 {
       font-size: 9pt;
@@ -99,7 +112,7 @@
   <header>
     <h1>Brad Murray</h1>
     <div class="contact">
-      +1 (519) 496-9994<span>·</span>bradtgmurray@gmail.com<span>·</span>Waterloo, Ontario, Canada<span>·</span><a href="https://www.linkedin.com/in/bradtgmurray/">linkedin.com/in/bradtgmurray</a>
+      +1 (519) 496-9994<span class="sep">·</span>bradtgmurray@gmail.com<span class="sep location-sep">·</span><br class="mobile-break" /><span class="location">Waterloo, Ontario, Canada</span><span class="sep">·</span><a href="https://www.linkedin.com/in/bradtgmurray/">linkedin.com/in/bradtgmurray</a>
     </div>
   </header>
 
